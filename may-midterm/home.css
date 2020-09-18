@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/backgroundgo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    float: right;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+  transition: .5s;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+.comtent h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d69;
+}
+.comtent p{
+    font-size: 30px;
+    color: #232d69;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.pic{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    border-radius: 50%;
+}
+.socail{
+    height: 65%;
+    position: absolute;
+    left: 160px;
+    margin: 0px 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+.icon img{
+    display: inline-block;
+    width: 50px;
+    right: 160px;
+            
+}
+/* input {
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    color: gray;
+    background-color: transparent;
+  }
+input::placeholder {
+    opacity: 0.5;
+    color: gray;
+    font-family: "Montserrat";
+  } */
+.containerbx {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 61px 7px #5e849c40;
+    padding: 50px 20px;
+    border-radius: 20px;
+  }
+section {
+    background-image: url(image/backgroundgo.png);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+ }
+ .gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+.gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 50px;
+    grid-gap: 20px;
+}
+.cities{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: 0.3s ease box-shadow;
+}
+.cities:hover{
+    box-shadow: 0px 0px 20px 3px #00000042;
+}
+.cities:nth-last-child(1) {
+    margin-bottom: 0;
+}
+.cities h2{
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background-color: #00000040;
+    color: aliceblue;
+    bottom: 50px;
+    font-weight: 300;
+    transition: 0.5s ease-in-out bottom;
+}
+.cities h2:hover{
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+/* .center{
+text-align: center;} */
+/*
+.section .about-me img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    bottom: 0;
+    border-radius: 5%;
+    left: 160px;
+    height: 90%;
+    width: 40%;
+}
+.section a{
+    color: aliceblue;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    position: sticky;
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
+}
+*/
+.footer {
+	min-height: 20vh;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	color: black;
+	flex-direction: column;
+	text-align: center;
+	padding: 10rem;
+}
+.footer .footer-contact {
+	padding: 20px;
+}
+.footer .footer-contact .footer-contact-heading {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.footer .footer-contact .footer-contact-info {
+	font-size: 1.4rem;
+	padding-top: 10px;
+	letter-spacing: .2rem;
+}
+.footer .footer-social-follow .footer-social-icon a {
+	color: black;
+	font-size: 3rem;
+	margin: .4rem;
+	display: inline-block;
+}
