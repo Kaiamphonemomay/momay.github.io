@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@700&display=swap');
+*{
+    font-family: 'Dosis', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.gallery1{
+    padding-top: 50px;
+    text-align: center;
+}
+.gallery-img{
+    width: 300px;
+}
